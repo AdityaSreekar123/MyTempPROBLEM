@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates - My Template</title>
+    <link rel="stylesheet" href="../static/templates.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo__name" style="display: flex">
+          <img src="../static/template (1).png" class="logo" />
+          <h1 class="HEADER-HEADING">My Template</h1>
+        </div>
+        <div id="links">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="start.html">Start</a>
+            </li>
+            <li>
+              <a href="/templates">Templates</a>
+            </li>
+            <li>
+              <a href="/recommended">Recommended</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div>
+        <h1 class="headerHeading1">Templates</h1>
+      </div>
+    </header>
+    <br />
+
+    <h1 class="headerHeading10">Get over 17+ free templates</h1>
+    <br />
+
+    <!-- BUISNESS TEMPLATES -->
+    <h1 class="headerHeading1">Buisness Templates</h1>
+
+    <div class="buisness1">
+      <div class="template">
+        <div class="templateImg1"></div>
+        <button class="tempaltesButton" onclick="showTemplate1()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg2"></div>
+        <button class="tempaltesButton" onclick="showTemplate2()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg3"></div>
+        <button class="tempaltesButton" onclick="showTemplate3()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template1">
+      <h1 class="headerHeading10">Gym Template - From MyTemplate</h1>
+      <div class="imgContainer">
+        <img src="../static/templateONE.png" class="templateIMG"/>
+      </div>
+      <div class="headerHeading10">HTML Code</div>
+      <div class="codehtml">
+        <div class="html">
+          <xmp>
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BestGym- The best fitness gym in the town</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="timer.js"></script>
+      <link rel="stylesheet" href="utils.css">
+  </head>
+  
+  <body class='overflow-x-hidden'>
+      <div class="container mx-auto">
+          <header>
+              <nav class="flex justify-between">
+                  <div class="logo font-bold flex items-center text-blue">BestGym</div>
+                  <ul class="navbar flex items-center">
+                      <li>Home</li>
+                      <li>About</li>
+                      <li>Services</li>
+                      <li>Contact Us</li>
+                      <li><button class="btn">Join Now</button></li>
+                  </ul>
+              </nav>
+              <hr>
+          </header>
+          <main class="min-h-screen">
+              <section class="section1">
+                  <div class="flex">
+                      <div class="topleft flex flex-col justify-center px-2">
+                          <div class=" text-center">
+                              <img class="dumbellimg" src="dumbell.png" alt="">
+                          </div>
+                          <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                          <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+                              error corporis fugit dolore adipisci aperiam omnis nisi dolores hic eius in ex id iure, ea
+                              sunt asperiores et voluptatibus dignissimos autem maiores molestias dolor rem delectus
+                              quidem! Inventore.</p>
+                              <!-- Display the countdown timer in an element -->
+                              <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                              <div class="buttons">
+                                  <button class="btn">Join now</button>
+                                  <button class="btn">Contact Us</button>
+                              </div>
+                      </div>
+                      <div class="topright flex justify-center">
+                          <h1 style="margin-top: 50px
+                          ;">(custom image)</h1>
+                      </div>
+                  </div>
+              </section>
+              <hr>
+              <section class="section2">
+                  <h1 class="text-center my-2">Pricing</h1>
+                  <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis provident
+                      suscipit temporibus modi voluptatem. Assumenda aspernatur ad nihil quasi expedita eligendi atque?
+                      Dolorum eum deserunt dicta iste beatae commodi, doloribus expedita hic recusandae, tempora illum
+                      consequuntur? Necessitatibus voluptate animi repellendus reiciendis!</p>
+                  <div class="boxes flex justify-center">
+                      <div class="box">
+                          <h2>Free</h2>
+                          <ul>
+                              <li class="highlighted">₹0/month</li>
+                              <li>0 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                              <li><button class="btn">Signup Now</button></li>
+                          </ul>
+                      </div>
+                      <div class="box">
+                          <h2>Pro</h2>
+                          <ul>
+                              <li class="highlighted">₹150/month</li>
+                              <li>0 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                              <li><button class="btn">Signup Now</button></li>
+                          </ul>
+                      </div>
+                      <div class="box">
+                          <h2>Enterprise</h2>
+                          <ul>
+                              <li class="highlighted">₹500/month</li>
+                              <li>0 users included</li>
+                              <li>2 GB of storage</li>
+                              <li>Email support</li>
+                              <li>Help center access</li>
+                              <li><button class="btn">Signup Now</button></li>
+                          </ul>
+                      </div>
+  
+                  </div>
+              
+  
+      </div>
+  </body>
+  
+  </html>
+          </xmp>
+        </div>
+      </div>
+      <div class="codehtml">
+        <div class="css">
+          <h1 class="headerHeading10">Style.css code</h1>
+          <xmp>@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+          </xmp>
+        </div>
+      </div>
+      <div class="codehtml">
+        <div class="css" style="margin-right: 35px;">
+          <h1 class="headerHeading10">Utils.css code</h1>
+          <xmp>
+.min-h-screen{
+min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(227 74 56);;
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+          </xmp>
+        </div>
+      </div>
+     <div class="btncontainer">
+      <button class="btnclass" onclick="hideTemplate()">Hide</button>
+     </div>
+    </div>
+    <div id="template2">
+      <h1 class="headerHeading10">Restaurant Template - MyTemplate</h1>
+      <div class="imgContainer">
+        <img src="../static/restaurant 1.png" class="templateIMG">
+      </div>
+      <div class="imgContainer">
+        <img src="../static/restaurant 2 .png" class="templateIMG">
+      </div>
+      <div class="line">
+      </div>
+      <!-- CONTENT AFTER LINE -->
+      <div class="codehtml">
+        <div class="html">
+          <h1 class="headerHeading10">Html Code(The Website Is Responsive)</h1>
+          <xmp>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="restaurant.css" />
+  </head>
+
+  <body>
+    <div class="headContainer">
+      <div class="hotelImg"></div>
+      <div class="Info">
+        <h1 class="heading">MY HOTEL</h1>
+        <p class="p">get the best food prepared by world class chefs.</p>
+        <h1 class="heading2" style="margin-top: 50">VISIT NOW</h1>
+        <p class="p">
+          available at locations hyderabad, banglore, chennai, and mumbai.
+        </p>
+        <br />
+        <div class="imgcontainer">
+          <img
+            src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+            class="img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h1 class="heading">
+        BEST DISHES IN <br />
+        OUR HOTEL
+      </h1>
+      <div class="bestDishes" style="margin-top: 15px">
+        <div class="chickenBir">
+          <div class="imgcontainer">
+            <img
+              src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x500.jpg"
+              class="img"
+            />
+          </div>
+          <p class="p2">CHICKEN BIRYANI</p>
+        </div>
+        <div class="crispyCorn">
+          <div class="imgcontainer">
+            <img
+              src="https://vismaifood.com/storage/app/uploads/public/31d/fd6/014/thumb__700_0_0_0_auto.jpg"
+              class="img"
+            />
+          </div>
+          <p class="p2">CRISPY CORN</p>
+        </div>
+        <div class="kadaiPaneer">
+          <div class="imgcontainer">
+            <img
+              src="https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1598126651/recipe/588542009cb00121812ac678b8c507e6.jpg"
+              class="img"
+            />
+          </div>
+          <p class="p2">KADAI PANEER</p>
+        </div>
+        <div class="paniPuri">
+          <div class="imgcontainer">
+            <img
+              src="https://imgk.timesnownews.com/story/iStock-525416827.jpg?tr=w-1200,h-900"
+              class="img"
+            />
+          </div>
+          <p class="p2">PANI PURI</p>
+        </div>
+      </div>
+      <h1 class="heading">FOUNDED BY WORLD CLASS CHEF'S</h1>
+      <div class="founders">
+        <div class="chef1">
+          <img
+            src="https://6d1bdf0e0edb084eae10-5bfabe5484726969ac662c6d377e2f3c.ssl.cf2.rackcdn.com/uploads/festival_images/d04f799eefa44d162cf98b53df11d963.png"
+            class="img2"
+          />
+          <h1 class="heading3">CHEF SANJAY TUMMA</h1>
+        </div>
+        <div class="chef2">
+          <img
+            src="https://www.cntravellerme.com/2021/11/vxtY2uSm-Chef-Chalapathi-Rao-2-1200x1799.jpg"
+            class="img2"
+          />
+          <h1 class="heading3">CHEEF CHALAPATHI RAO</h1>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+          </xmp>
+        </div>
+      </div>
+      <div class="codehtml">
+        <div class="css">
+          <h1 class="headerHeading10">Css Code</h1>
+          <xmp>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotelImg {
+  width: 70%;
+  height: 885px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg);
+  background-size: 100% 100%;
+  filter: blur(2px);
+}
+
+.Info {
+  width: 30%;
+  height: 885px;
+  background: rgb(255, 209, 3);
+}
+
+.heading {
+  text-align: center;
+  font-size: 75px;
+  margin-top: 25px;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-style: italic;
+}
+
+.p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.p2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 75px;
+  margin-top: 65px;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-style: italic;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img {
+  width: 450px;
+  height: 250px;
+  margin: auto;
+}
+
+.heading3 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 25px;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* section */
+
+.bestDishes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img2 {
+  width: 650px;
+  height: 550px;
+}
+
+/* RESPONSIVNESS  */
+@media (max-width: 600px) {
+  .headContainer {
+    display: block;
+  }
+
+  .hotelImg {
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+  }
+
+  .Info {
+    width: 100%;
+  }
+  .heading {
+    font-size: 65px;
+  }
+
+  .bestDishes {
+    display: block;
+  }
+
+  .founders {
+    display: block;
+  }
+
+  .img2 {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+          </xmp>
+        </div>
+      </div>
+      <div class="btncontainer">
+        <button class="btnclass" onclick="hideTemplate()">Hide</button>
+      </div>
+    </div>
+    <div id="template3">
+      <h1 class="headerHeading10">Shoe Buisneses Template - MyTemplate</h1>
+      <div class="imgContainer">
+        <img src="../static/shoeTemplate.png" class="templateIMG">
+      </div>
+      <h1 class="headerHeading10">Html Code</h1>
+      <div class="codehtml">
+        <div class="html">
+          <xmp>
+            <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+
+    <title>Shoe Business</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <img src="Logo 3.jpg" class="logo">
+            <div class="nav-icons">
+                <img src="search.png">
+                <img src="cart.png">
+                <img src="menu.png">
+            </div>
+        </nav>
+
+        <div class="row">
+
+            <div class="col-1">
+
+
+
+                <h1>My Template<br> Sports Air</h1>
+
+
+                <p>
+
+                    The My Templates Sports Has come up with a great comfort and cushion Shoes.
+                    The reviews are very good dont forget To Buy. They are very Cheap In the whole marked in USA
+                </p>
+                <h2>$50</h2>
+                <button type="button">Add To Cart!</button>
+            </div>
+            <div class="col-2">
+
+                <div class="feature-img">
+                <img src="Shoes 1.png">
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="nike-b.png">
+                    </div>
+                    <div class="small-img">
+                        <img src="nike-g.png">
+
+                    </div>
+                    <div class="small-img">
+
+                        <img src="nike.png">
+                    </div>
+                    <div class="small-img">
+                        <img src="nike-g.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+          </xmp>
+        </div>
+      </div>
+      <h1 class="headerHeading10">Css Code</h1>
+      <div class="codehtml">
+        <div class="css">
+          <xmp>
+            * {
+              margin: 0;
+              padding: 0;
+              font-family: 'Poppins', sans-serif;
+              box-sizing: border-box;
+          }
+          
+          .container {
+              width: 100%;
+              height: 100vh;
+              background: black;
+              color: #fff;
+          
+          }
+          
+          nav {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 30px 8%;
+              position: fixed;
+              top: 0;
+              width: 100%;
+              background: #1e2227;
+              z-index: 1;
+          
+          }
+          
+          .logo {
+              width: 120px;
+              cursor: pointer;
+          
+          }
+          
+          .nav-icons img {
+              width: 25px;
+              margin-left: 30px;
+              cursor: pointer;
+          
+          }
+          
+          .row {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              background-color: cadetblue;
+          }
+          
+          .col-1,
+          .col-2 {
+              flex-basis: 50%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+          
+          }
+          
+          .col-2 {
+              background: red;
+          
+          
+          
+          }
+          
+          .col-1 {
+              padding-left: 8%;
+          }
+          .col-1  h1{
+              font-size: 60px;
+              line-height: 100px;
+              margin-bottom: 5px;
+          
+          }
+          
+          .col-1  h2{
+              font-size: 40px;
+              margin-top: 60px;
+              font-weight: 550;
+          
+          }
+          button{
+              display: inline-block;
+              width: fit-content;
+              padding: 18px 50px;
+              background: red;
+               border: none;
+               color: #fff;
+               cursor: pointer;
+               font-size: 21px;
+               margin-top: 20px;
+               
+          }
+          
+          .feature-img{
+              width: 100%;
+              text-align: center;
+          
+          
+          }
+          
+          .feature-img img{
+              width: 80%;
+              transform: rotate(-20deg);
+          }
+          
+          .small-img-row{
+              display: flex;
+              width: 80%;
+              margin: 70px auto 0;
+              align-items: center;
+              justify-content: space-around;
+          }
+          
+          .small-img{
+              margin-left: 700;
+              width: 70px;
+              height: 80px;
+              background: #ccc;
+              margin-bottom: 10px;
+          
+          }
+          
+          .small-img img{
+              width: 120px;
+              margin-top: -45px;
+              transform: translate(-50px, 20px) rotate(-20deg);
+          
+          }
+          
+          
+          </xmp>
+        </div>
+      </div>
+      <h1 class="headerHeading">Link For All Images</h1>
+      <div class="imgContainer">
+        <a href="https://photos.app.goo.gl/qiJtRQc25smGBccw9" target="__blank">Link For All Images </a>
+      </div>
+      <div class="btncontainer">
+        <button class="btnclass" onclick="hideTemplate()">Hide</button>n-top: 35px">
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate4()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate5()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate6()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template4">
+      template 4
+      <button onclick="hideTemplate2()">Hide</button>
+    </div>
+    <div id="template5">
+      tempalte 5
+      <button onclick="hideTemplate2()">HIDE</button>
+    </div>
+    <div id="template6">
+      tempalte 6
+      <button onclick="hideTemplate2()">HIDE</button>
+    </div>
+    <br />
+
+    <h1 class="headerHeading1">Landing Pages</h1>
+    <br />
+    <div class="landingPages1">
+      <div class="template">
+        <div class="templateImg7"></div>
+        <button class="tempaltesButton" onclick="showTemplate7()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate8()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate9()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template7">
+      <h1 class="headerHeading10">Mobile Phone Promotion Landing Page</h1>
+      <div class="imgContainer">
+        <img src="../static/realPhone.png" class="templateIMG">
+      </div>
+      <div class="codehtml">
+        <div class="html">
+          <h1 class="headerHeading10">Html Code</h1>
+          <xmp>
+            <html>
+  
+  <head>
+  
+      <title>Real Phone</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+      <div class="main">
+          <nav>
+  
+              <div class="logo">
+  
+                  <img src="logo.png">
+              </div>
+              <div class="nav-links">
+  
+  
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Phone</a></li>
+                      <li><a href="#">Accessories</a></li>
+                      <li><a href="#">Cart</a></li>
+  
+  
+                  </ul>
+              </div>
+          </nav>
+  
+          <div class="information">
+              <div class="overlay"></div>
+              <img src="mobile.png" class="mobile">
+              <div id="circle">
+                  <div class="feature one">
+                      <img src="camera.png">
+                      <div>
+                          <h1>Camera</h1>
+                          <p>12MP, Wide Angle Lens</p>
+                      </div>
+                  </div>
+                  <div class="feature two">
+                      <img src="processor.png">
+                      <div>
+                          <h1>Proccessor</h1>
+                          <p>Snapdragon Octa-core 11nm</p>
+                      </div>
+                  </div>
+                  <div class="feature three">
+                      <img src="display.png">
+                      <div>
+                          <h1>Display</h1>
+                          <p>6.5" Mini-drop Fullscreen </p>
+                      </div>
+  
+                  </div>
+                  <div class="feature four">
+                      <img src="battery.png">
+                      <div>
+                          <h1>Batter Life</h1>
+                          <p>5000mAh, 720Hrs Standby</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="controls">
+              <img src="arrow.png" id="UpBtn">
+              <h3>Features</h3>
+              <img src="arrow.png" id="downBtn">
+          </div>
+      </div>
+  
+  
+      <script>
+  
+          var circle = document.getElementById("circle")
+          var UpBtn = document.getElementById("UpBtn")
+          var downBtn = document.getElementById("downBtn")
+  
+  
+          var rotateValue = circle.style.transform;
+          var rotateSum;
+  
+          UpBtn.onclick = function () {
+              rotateSum = rotateValue + "rotate(-90deg)";
+              circle.style.transform = rotateSum;
+              rotateValue = rotateSum
+          }
+          downBtn.onclick = function () {
+              rotateSum = rotateValue + "rotate(90deg)";
+              circle.style.transform = rotateSum;
+              rotateValue = rotateSum
+          }
+  
+      </script>
+  </body>
+  
+  </html>
+          </xmp>
+        </div>
+      </div>
+      <div class="codehtml">
+        <div class="css">
+          <h1 class="headerHeading10">Css Code</h1>
+          <xmp>
+            *{
+              margin: 0;
+              padding: 0;
+              font-family: sans-serif;
+          }
+          .main{
+              width: 100%;
+              height: 100vh;
+              position: relative;
+              overflow: hidden;
+              background: linear-gradient(to right, #9c27b0, #8ecdff);
+          }
+          nav{
+              width: 80%;
+              position: sticky;
+              margin: 20px auto;
+              z-index: 1;
+              display: flex;
+              align-items: center;
+          }
+          .logo{
+              flex-basis: 20%;
+              
+              
+          
+          }
+          .logo img{
+              width: 150px;
+              display:flex;
+              justify-content: left;
+             margin-left: -120;
+              
+          }
+          
+          .nav-links{
+              flex: 1;
+              text-align: right;
+          
+          }
+          .nav-links ul li{
+              list-style: none;
+              display: inline-block;
+              margin: 0 20px;
+          
+          }
+          .nav-links a{
+              color: #fff;
+              text-decoration: none;
+          
+          
+          }
+          
+          a:hover{
+              text-decoration: underline;
+              cursor: pointer;
+          }
+          
+          .information{
+              width: 1000px;
+              height: 1000px;
+              position: absolute;
+              top: 50%;
+              left: -10%;
+              transform: translateY(-50%);
+          }
+          #circle{
+              width: 1000px;
+              height: 1000px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-radius: 50%;
+              transform: rotate(0deg);
+              transition: 1s;
+              
+              
+          }
+          
+          .feature img{
+              width: 70px;
+              
+          
+          }
+          .feature{
+              position: absolute;
+              display: flex;
+              color: #fff;
+          
+          }
+          .feature div{
+              margin-left: 30px;
+          }
+          
+          .feature div p{
+              margin-top: 8px;
+          }
+          .one{
+              top: 450px;
+              right: 50px;
+          
+          }
+          .two{
+              top: 150px;
+              left: 350px;
+              transform: rotate(-90deg);
+          
+          }
+          .three{
+              bottom: 450px;
+              left: 50px;
+              transform: rotate(-180deg);
+          
+          
+          }
+          .four{
+              bottom: 150px;
+              right: 350px;
+              transform: rotate(-270deg);
+          }
+          .mobile{
+              width: 200px;
+              position: absolute;
+              top: 50%;
+              left: 35%;
+              transform: translateY(-50%);
+              z-index: 1;
+          
+          
+          
+          }
+          
+          .controls{
+              position: absolute;
+              right: 10%;
+              top: 50%;
+              transform: translateY(-50%);
+              text-align: center;
+          }
+          .controls h1{
+              margin: 15px 0;
+              color: #fff;
+          
+          }
+          .controls h3{
+              margin: 15px 0;
+              color: #fff;
+          }
+          
+          #upBtn{
+              width: 15px;
+              cursor: pointer;
+          
+          }
+          #downBtn{
+              width: 15px;
+              cursor: pointer;
+              transform: rotate(180deg);
+          
+          }
+          
+          .overlay{
+              width: 0;
+              height: 0;
+              border-top: 500px solid #fff;
+              border-right: 500px solid transparent;
+              border-bottom: 500px solid #fff;
+              border-left: 500px solid #fff;
+              position: absolute;
+              left: 0;
+              top: 0;
+          
+          
+          }
+          
+          </xmp>
+        </div>
+      </div>
+      <h1 class="headerHeading">Images For The Website</h1>
+      <div class="imgContainer">
+        <a href="https://photos.google.com/share/AF1QipPtco9ezyBadQUJ7obLFMla1oUO_xcoDhC7AsFyVUzN3a7xaJ9LIQoYPmU8bLLlyQ?key=RTdWWjJWbUxxUkhxcExyY1Z3NXY0WEpOMy1UVnRB" target="__blank">The Link For All The Images</a>
+      </div>
+      <div class="btncontainer">
+        <button class="btnclass" onclick="hideTemplate3()">Hide</button>
+      </div>
+    </div>
+    <div id="template8">
+      template 8
+      <button onclick="hideTemplate3()">Hide</button>
+    </div>
+    <div id="template9">
+      template 9
+      <button onclick="hideTemplate3()">hIDE</button>
+    </div>
+
+    <div class="landingPages2">
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate10()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate11()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate12()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template10">
+      template 10
+      <button onclick="hideTemplate4()">Hide</button>
+    </div>
+    <div id="template11">
+      template 11
+      <button onclick="hideTemplate4()">Hide</button>
+    </div>
+    <div id="template12">
+      template 12
+      <button onclick="hideTemplate4()">Hide</button>
+    </div>
+
+    <h1 class="headerHeading1">Adivertisement Templates</h1>
+    <div class="advertisement">
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate13()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate14()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate15()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template13"></div>
+    <div id="template14"></div>
+    <div id="template15"></div>
+
+    <div class="advertisement" style="margin-top: 25px">
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate16()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate17()">
+          Show Code
+        </button>
+      </div>
+      <div class="template">
+        <div class="templateImg"></div>
+        <button class="tempaltesButton" onclick="showTemplate18()">
+          Show Code
+        </button>
+      </div>
+    </div>
+
+    <div id="template16">
+      template 16
+      <button onclick="hideTemplate5()">HIDE</button>
+    </div>
+    <div id="template17">
+      template 17
+      <button onclick="hideTemplate5()">HIDE</button>
+    </div>
+    <div id="template18">
+      template 18
+      <button onclick="hideTemplate5()">HIDE</button>
+    </div>
+
+    <script src="../static/templates.js"></script>
+  </body>
+</html>
